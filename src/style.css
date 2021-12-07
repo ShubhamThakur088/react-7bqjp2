@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap');
+
+.Movie-posters {
+  height: 250px;
+}
+
+body {
+  background-color: #34252f;
+  margin: 0;
+}
+
+.Movie-Names {
+  font-size: 1rem;
+  left: 70px;
+}
+
+.Website-Title {
+  background-color: gray;
+  display: flex;
+  padding: 1rem;
+  justify-content: flex-end;
+}
+
+.Website-Title h4 {
+  font-size: 40px;
+}
+
+.Movie-Container {
+  width: 200px;
+  margin-left: 1.2rem;
+  margin-top: 2.5rem;
+}
+
+.Website-Title input {
+  background-color: transparent;
+  font-family: inherit;
+  border-radius: 50px;
+  font-size: 1rem;
+  color: whitesmoke;
+  padding: 0.5rem 1.25rem;
+}
+
+.Movie-Container img {
+  max-width: 100%;
+}
+
+.Movie-title {
+  margin-top: 5px;
+  color: whitesmoke;
+}
+
+* {
+  /* box-sizing: border-box; */
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-info h5 {
+  margin-top: 5px;
+  color: whitesmoke;
+}
